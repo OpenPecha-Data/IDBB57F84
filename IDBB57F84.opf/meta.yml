@@ -1,33 +1,63 @@
 id: IDBB57F84
+legacy_id: P004225
+ocr_import_info:
+  bdrc_scan_id: W8LS17565
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-03-23T12:44:10'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-23T12:44:24+00:00'
-last_modified: '2022-06-07T21:12:55.922200+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-09-04T03:55:44.521631+00:00'
+last_modified: 2022-09-04 11:56:06.945899
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W8LS17565
-  title: སུ་མ་ཏི་དྷྭ་ཛ་སིདྷིའི་རྟོགས་བརྗོད།
-  author: ''
+  id: http://purl.bdrc.io/resource/W8LS17565
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: true
-  base:
-    5CEE:
-      image_group_id: I8LS17572
-      title: ''
+  geo_restriction:
+  - CN
+  reproduction_of: http://purl.bdrc.io/resource/MW8LS17565
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: སུ་མ་ཏི་དྷྭ་ཛ་སིདྷིའི་རྟོགས་བརྗོད།
+statistics:
+  ocr_word_mean_confidence_index: 0.625488603092819
+  ocr_word_median_confidence_index: 0.6600000262260437
+quality: null
+bases:
+  I8LS17572:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I8LS17572
       total_pages: 654
-      order: 1
-      base_file: 5CEE.txt
-    '2946':
-      image_group_id: I8LS17573
-      title: ''
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I8LS17572.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.6499999761581421
+      ocr_word_mean_confidence_index: 0.6242336236230502
+    legacy_id: v001
+  I8LS17573:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I8LS17573
       total_pages: 2
-      order: 2
-      base_file: 2946.txt
-statistics: {}
-quality: {}
+      volume_number: 2
+      volume_pages_bdrc_intro: 2
+    order: 2
+    base_file: I8LS17573.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9900000095367432
+      ocr_word_mean_confidence_index: 0.9648076996016197
+    legacy_id: v002
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0

@@ -1,0 +1,10 @@
+id: 7897790c3bb34ad3b57e78888e65c3c1
+annotation_type: Pagination
+revision: '00001'
+annotations:
+  c45a089c4fe649d39d1b0cb84f5d8bea:
+    span:
+      start: 0
+      end: 596
+    imgnum: 1
+    reference: I8LS175730001.tif
